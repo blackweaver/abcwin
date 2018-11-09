@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ABCwin</title>
+<!--Aquí están las dos líneas que debes incluír en tu HTML principal-->
+<link href="ABCwin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="ABCwin.js"></script>
+
+<!-- De aquí en más tanto el CSS como el HTML es de ejemplo para que veas como funciona -->
+<style type="text/css">
+body {
+	background: white;
+	font-family: georgia, times, 'Times New Roman', times-roman, georgia, serif;
+	color: #666;
+	font-size: 1em;
+	text-align: left;
+	text-align: center;
+}
+h1 {
+	font-size: 6em;
+	letter-spacing: -2px;
+	color: gray;
+	padding-top: 10px;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+}
+span, a {
+	color: #316300;
+}
+
+fieldset {
+	border: none;
+}
+
+dl {
+	line-height: 150%;
+	border: 1px dashed #D3D3D3;
+	border-radius: 10px;
+	width: 520px;
+	padding: 10px;
+	margin: 0 auto 15px auto;
+	text-align: left;
+}
+
+dt {
+	color: #316300;
+	font-size: 1.7em;
+	line-height: 1em;
+	padding-bottom: 20px;
+}
+
+p.demo_images {
+	border: 1px dashed #D3D3D3;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 15px auto;
+	text-align: center;
+	width: 520px;
+}
+
+p.demo_images img { 
+	margin: 0 5px; 
+}
+</style>
+</head>
+<body>
+<h1>ABC<span>win</span></h1>
+<p class="demo_images">
+    <a href="images/big-example-5.jpg" rel="abcshow[Grupo de imágenes]" title="Reloj de arena" class="abc"><img src="images/img-example-5.jpg" alt="ABCshow Image 5" /></a> <a href="images/big-example-6.jpg" rel="abcshow[Grupo de imágenes]" title="Las lavandas de mi madre" class="abc"><img src="images/img-example-6.jpg" alt="ABCshow Image 6" /></a> <a href="images/big-example-7.jpg" rel="abcshow[Grupo de imágenes]" title="La niña y el payaso" class="abc"><img src="images/img-example-7.jpg" alt="ABCshow Image 7" /></a> <a href="images/big-example-8.jpg" rel="abcshow[Grupo de imágenes]" title="Bicicletas parisinas" class="abc"><img src="images/img-example-8.jpg" alt="ABCshow Image 8" /></a> 
+</p>
+<p class="demo_images">
+    <a href="http://www.youtube.com/embed/hLQl3WQQoQ0" title="Adele - Someone Like You" rel="abcvideo[800|600,Grupo de videos]" class="abc"><img src="http://img.youtube.com/vi/hLQl3WQQoQ0/1.jpg" alt="ABCshow video 4" /></a> <a href="http://www.youtube.com/embed/CGkvXp0vdng" title="Beyoncé - Video Phone ft. Lady Gaga " rel="abcvideo[640|480,Grupo de videos]" class="abc"><img src="http://img.youtube.com/vi/CGkvXp0vdng/1.jpg" alt="ABCshow video 5" /></a> <a href="http://www.youtube.com/embed/DkFJE8ZdeG8" title="Calle 13 - Latinoamérica" rel="abcvideo[1024|600,Grupo de videos]" class="abc"><img src="http://img.youtube.com/vi/DkFJE8ZdeG8/1.jpg" alt="ABCshow video 6" /></a> 
+</p>
+<p class="demo_images">
+  <a href="http://player.vimeo.com/video/35451452" title="Ninja vs Pirate (2012)" rel="abcvideo[640|480,3D Animations]" class="abc"><img src="http://b.vimeocdn.com/ts/246/134/246134398_100.jpg" alt="ABCshow video 1" /></a> <a href="http://player.vimeo.com/video/6859680" title="American Beauty Retrofit" rel="abcvideo[800|600,3D Animations]" class="abc"><img src="http://b.vimeocdn.com/ts/275/389/27538990_100.jpg" alt="ABCshow video 1" /></a><a href="http://player.vimeo.com/video/31469717" title="Michael Amos Animation Showreel" rel="abcvideo[640|480,3D Animations]" class="abc"><img src="http://b.vimeocdn.com/ts/234/180/234180065_100.jpg" alt="ABCshow video 1" /></a> <a href="http://player.vimeo.com/video/19366476" title="Character Animation Reel 2010" rel="abcvideo[800|600,3D Animations]" class="abc"><img src="http://b.vimeocdn.com/ts/122/866/122866450_100.jpg" alt="ABCshow video 1" /></a>
+</p>
+  <dl>
+  	<dt>Ejemplos Web browsers</dt>
+    <dd><a href="external_form.html" rel="get:id=10" rev="abcwin[500,auto]">Mostrar template con un formulario</a></dd>
+    <dd><a href="external_video.html" rel="get:id=10" rev="abcwin[500,auto]">Abrir template con un video</a></dd>
+    <dd><a href="external_info.html" rel="get:id=10" rev="abcwin[600,auto]">Desplegar template con información</a></dd>
+  </dl>
+  <dl class="right">
+   <dt>Ejemplos Mobile devices</dt>
+    <dd><a href="external_form.html" rel="post:id=10" rev="abcwin[280,auto]">Mostrar template con un formulario</a></dd>
+    <dd><a href="external_video_mobiles.html" rel="post:id=10" rev="abcwin[280,auto]">Abrir template con un video</a></dd>
+    <dd><a href="external_info_mobiles.html" rel="post:id=10" rev="abcwin[280,auto]">Desplegar template con información</a></dd>
+  </dl>
+  <a href="http://abcwin.abcdisegno.com/abcwin.html">Ver este mismo archivo funcionando online</a>
+</body>
+</html>
